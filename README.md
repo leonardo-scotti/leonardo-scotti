@@ -16,3 +16,6 @@ Olá, sou o Leonardo Scotti. Estudante de Desenvolvimento de Sistemas no SENAI d
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Leonardo-Scotti/Leonardo-Scotti/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
+---
+[![](https://visitcount.itsvg.in/api?id=Leonardo-Scotti&icon=0&color=0)](https://visitcount.itsvg.in)
