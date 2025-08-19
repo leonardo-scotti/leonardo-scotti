@@ -4,7 +4,9 @@ Meu nome é Leonardo Scotti. Atualmente, estou cursando Desenvolvimento de Siste
 
 Tenho interesse especial na área de back-end e estou em busca de oportunidades para crescer profissionalmente nesse campo.
 
-Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e desafios na programação.<br/>
+Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e desafios na programação.
+
+## Contato:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/scottix__) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardo-scotti-dev) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:leonardo.scotti07@gmail.com)
 
 ---
