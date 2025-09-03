@@ -19,9 +19,9 @@ Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e de
 ---
 <div>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Leonardo-Scotti/Leonardo-Scotti/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Leonardo-Scotti/Leonardo-Scotti/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Leonardo-Scotti/Leonardo-Scotti/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
