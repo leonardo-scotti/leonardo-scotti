@@ -1,6 +1,6 @@
 # :octocat: Leonardo Scotti
 
-Meu nome é Leonardo Scotti. Atualmente, estou cursando Desenvolvimento de Sistemas no SENAI de Jandira.
+Meu nome é Leonardo Scotti. Atualmente, estou cursando Bacharel em Ciências da Computação na FIAP e Técnico em Desenvolvimento de Sistemas no SENAI de Jandira.
 
 Tenho interesse especial na área de back-end e estou em busca de oportunidades para crescer profissionalmente nesse campo.
 
