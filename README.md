@@ -54,7 +54,6 @@ Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e de
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" height="50" alt="markdown logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" height="50" alt="azure logo"  />
-  <img width="12" />
 </div>
 
 <img heigth="24" />
