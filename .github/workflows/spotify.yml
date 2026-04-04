@@ -6,16 +6,32 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-readme:
+  spotify:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Update Spotify section
-        uses: anmol098/waka-readme-stats@master
+      - name: Setup Node
+        uses: actions/setup-node@v3
         with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install node-fetch@2
+
+      - name: Run script
+        run: node scripts/spotify.js
+        env:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
-          SHOW_SPOTIFY: true
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "leonardo-scotti"
+          git config --global user.email "leonardo.scotti07@gmail.com"
+          git add README.md
+          git commit -m "🎧 Atualizando Spotify" || exit 0
+          git push
