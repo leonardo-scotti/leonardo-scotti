@@ -1,37 +1,37 @@
-name: Update Spotify
+# name: Update Spotify
 
-on:
-  schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: "*/30 * * * *"
+#   workflow_dispatch:
 
-jobs:
-  spotify:
-    runs-on: ubuntu-latest
+# jobs:
+#   spotify:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
+#       - name: Setup Node
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: 22
 
-      - name: Install dependencies
-        run: npm install node-fetch@2
+#       - name: Install dependencies
+#         run: npm install node-fetch@2
 
-      - name: Run script
-        run: node scripts/spotify.js
-        env:
-          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
-          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
-          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+#       - name: Run script
+#         run: node scripts/spotify.js
+#         env:
+#           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+#           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+#           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
 
-      - name: Commit changes
-        run: |
-          git config --global user.name "leonardo-scotti"
-          git config --global user.email "leonardo.scotti07@gmail.com"
-          git add README.md
-          git commit -m "🎧 Atualizando Spotify" || exit 0
-          git push
+#       - name: Commit changes
+#         run: |
+#           git config --global user.name "leonardo-scotti"
+#           git config --global user.email "leonardo.scotti07@gmail.com"
+#           git add README.md
+#           git commit -m "🎧 Atualizando Spotify" || exit 0
+#           git push
