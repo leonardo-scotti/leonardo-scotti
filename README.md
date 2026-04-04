@@ -97,3 +97,8 @@ Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e de
 </picture>
 
 ---
+
+## 🎧 Últimas músicas ouvidas
+
+<!--START_SECTION:spotify-->
+<!--END_SECTION:spotify-->
