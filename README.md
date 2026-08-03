@@ -79,9 +79,6 @@ Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e de
 </div>
 
 ---
-<img src="https://streak-stats.demolab.com?user=leonardo-scotti&locale=pt-br&mode=daily&theme=cobalt&hide_border=false&border_radius=5&date_format=j%20M%5B%20Y%5D&order=3" height="250" alt="streak graph"/>
-
----
 <!-- <div>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/github-contribution-grid-snake-dark.svg">
@@ -95,10 +92,3 @@ Sou apaixonado por tecnologia e estou sempre em busca de novos aprendizados e de
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/leonardo-scotti/leonardo-scotti/output/pacman-contribution-graph.svg">
 </picture>
-
----
-
-## 🎧 Últimas músicas ouvidas
-
-<!--START_SECTION:spotify-->
-<!--END_SECTION:spotify-->
